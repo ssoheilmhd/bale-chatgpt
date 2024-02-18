@@ -15,3 +15,12 @@ def baleAPIcaller(Method):
 inp= "getUpdates"
 #inp = "sendMessage"
 baleAPIcaller(inp)
+
+
+while true:
+    i = 0
+    while i < 20:
+        get_last_message()
+        response()
+        i += 1
+    sleep 60
