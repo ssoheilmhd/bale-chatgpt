@@ -1,0 +1,16 @@
+[Unit]
+Description=balebot chatgpt Service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/soheil/bale-chatgpt-main
+ExecStart=/bin/sh balegpt.sh
+Restart=on-failure
+RestartSec=50s
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
+
