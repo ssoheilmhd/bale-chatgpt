@@ -5,7 +5,6 @@
 **prerequisite:**
 
 *You can use this application on any Linux distribution, Windows or Mac. I write the Linux guide.
-
 Preferably use Python version 3.11.3*
 
 *You need to sign up in openai to get access to openaiAPItoken, if you dont want to use your personal number to sign up on this site, I suggest you to use https://numberland.ir. You can buy a virtual number from anywhere to use it for openai.
