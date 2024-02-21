@@ -15,7 +15,7 @@ After the registration you need to create API access key (use this tutorial http
 
 **Network requirements:**
 
-*Make sure that you have the right access to openai, you can use a server which doesnt have any limitation from openai or you can use shekan like this:*
+*Make sure that you have proper access to openai, you can use a server which doesnt have openai restrictions or you can use shecan (https://shecan.ir/) like this:*
 
 `echo "nameserver 178.22.122.100" > /etc/resolv.conf`
 
