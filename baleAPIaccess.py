@@ -23,4 +23,3 @@ def AnswerToUser(Method,chat_id,text,message_id):
     """
     payload = { 'chat_id':chat_id, 'text':text, 'reply_to_message_id':message_id }
     response = requests.post(url+f'/{Method}',params=payload)
-    print (response)
