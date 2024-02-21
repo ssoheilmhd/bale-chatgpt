@@ -17,13 +17,21 @@ Make sure that you have the right access to openai, you can use a server which d
 
 **Installation:**
 
+*change directory to the project directory*
+
 `cd /opt/bale-chatgpt-main`
+
+*create virtual environment and activate it*
 
 `python -m venv venv`
 
 `source activate venv/bin/activate`
 
+*install python libraries which they need for running application*
+
 `pip install -r requirements.txt`
+
+*create a file service for application and start it*
 
 `cat balegpt.service > /etc/systemd/system/balegpt.service`
 
@@ -31,6 +39,10 @@ Make sure that you have the right access to openai, you can use a server which d
 
 `systemctl start balegpt`
 
+*check availability of this service*
+
 `systemctl status balegpt`
+
+*Enable this service for subsequent boots*
 
 `systemctl enable balegpt`
