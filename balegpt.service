@@ -4,7 +4,7 @@ Description=balebot chatgpt Service
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/home/soheil/bale-chatgpt-main
+WorkingDirectory=/path/to/your/bale-chatgpt-main
 ExecStart=/bin/sh balegpt.sh
 Restart=on-failure
 RestartSec=50s
