@@ -17,21 +17,21 @@ Preferably use Python version 3.11.3*
 
 **Installation:**
 
-*change directory to the project directory*
+*Change directory to the project directory*
 
 `cd /opt/bale-chatgpt-main`
 
-*create virtual environment and activate it*
+*Create virtual environment and activate it*
 
 `python -m venv venv`
 
 `source activate venv/bin/activate`
 
-*install python libraries which they need for running application*
+*Install python libraries which they need for running application*
 
 `pip install -r requirements.txt`
 
-*create a file service for application and start it*
+*Create a file service for application and start it*
 
 `cat balegpt.service > /etc/systemd/system/balegpt.service`
 
